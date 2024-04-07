@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffe0e0be;
+    
+}
+
+.header {
+    color: #ffffff;
+    background-image: url('images/homepagepic.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.header h1 {
+    position: relative;
+    z-index: 1;
+}
+
+.return-home {
+    background-color: #56a1b8;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    position: absolute;
+    left: 20px; 
+    top: 20px; 
+}
+
+.students, .preferences {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.students p, .preferences p {
+    margin: 5px 0; 
+}
+
+
+form select {
+    width: 100%; 
+    padding: 10px;
+    border: 1.5px solid #000000;
+    background-color: #fff;
+    box-sizing: border-box;
+    
+}
+
+form input[type="submit"] {
+    width: 100%; 
+    padding: 10px;
+
+    border-top: none; 
+    border-right: 1px solid #000000; 
+    border-bottom: 1.5px solid #000000; 
+    border-left: 1px solid #000000; 
+
+    background-color: #56a1b8;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+
+.student-list.card {
+    border-bottom: 2px solid black; 
+    padding-bottom: 20px;
+}
+
+
+.preferences.card {
+    border-bottom: 1.5px solid black; 
+
+}
+
+.edit-preferences-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.edit-button {
+    display: block;
+    background-color: #56a1b8;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-top: 1.5px solid #000000;
+
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.update-preferences-btn {
+    background-color: #56a1b8 !important; 
+    color: white; 
+    padding: 10px 20px; 
+    border-top:  1.5px solid #000000 !important; 
+    border-right: 1px solid #000000 !important; 
+    border-bottom: 1.5px solid #000000 !important; 
+    border-left: 1px solid #000000 !important; 
+    display: inline-block; 
+    margin-top: 20px; 
+    margin-bottom: -10px;
+}
+
+.update-preferences-btn:hover {
+    background-color: #0056b3 !important;
+}
