@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # CMPE332 Database Management Systems Project
 
 ## Overview
